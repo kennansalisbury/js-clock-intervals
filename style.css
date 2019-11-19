@@ -1,14 +1,30 @@
 #clock {
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30vw 1fr 30vw;
+    grid-template-rows: 30vh 1fr 30vh;
 }
 
 #clock img {
+    height: 50vh;
+    grid-column: 2;
+    grid-row: 2;
 }
 
 #hour {
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 1;
 }
 
 #minute {
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 2;
 }
 
 #second {
+    grid-column: 2;
+    grid-row: 2;
+    z-index: 3;
 }
